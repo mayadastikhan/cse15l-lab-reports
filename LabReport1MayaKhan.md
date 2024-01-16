@@ -64,6 +64,7 @@ The working directory is home/ and, when the argument is 'lecture1/messages/en-u
 ![Screen Shot 2024-01-11 at 5 41 21 PM](https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/801e6576-3dc9-4e06-94c2-eba740f3687d)
 
 The working directory is home/ and cat with the argument of a path to a file 'lecture1/messages/en-us.txt' will output 'Hello World!", which are the contents of the file the argument references. This is due to the fact that cat will print the contents of files given by the path in the argument. If there were to be two arguments of paths to files, then the command cat would concatentate the contents of both files. For example, the argument 'lecture1/messages/en-us.txt lecture1/messages/es-mx.txt' would output:
+
 Hello World!
 
 ¡Hola Mundo!
