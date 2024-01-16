@@ -19,7 +19,7 @@
 <img width="950" alt="Screenshot 2024-01-15 at 8 14 55 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/f63fb7e7-f18c-4b92-ad6c-adbcf898d241">
 
 
-<h2>2. Share an example of using the command with a path to a directory as an argument.<h2>
+<h2>2. Share an example of using the command with a path to a directory as an argument.<h2></h2>
 
 **cd:**
 
