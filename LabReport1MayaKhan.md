@@ -1,10 +1,10 @@
-<h1>Lab Report 1</h1>
+#Lab Report 1
 
 
-<h2>1. Share an example of using the command with no arguments.</h2>
+##1. Share an example of using the command with no arguments.
 
    
-**cd:**
+**cd:
 
 <img width="950" alt="Screenshot 2024-01-15 at 8 14 07 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/36a9032a-5a8b-40d2-88ff-910d9956aa1f">
 The working directory is /home and displays no output when cd is entered without an argument. This is due to the fact that the current working directory is /home, thus there is no directory to change to on the path before home or one stated as the argument. The output is not an error because the user stays in the home directory, which is expected when cd is followed without any argument.
