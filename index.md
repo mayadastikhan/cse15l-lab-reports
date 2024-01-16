@@ -1,1 +1,1 @@
-[Lab Report 1] (LabReport1MayaKhan.md)
+[Lab Report 1](LabReport1MayaKhan.md)
