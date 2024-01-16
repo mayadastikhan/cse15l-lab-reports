@@ -21,6 +21,7 @@
 
 <h2>2. Share an example of using the command with a path to a directory as an argument.<h2></h2>
 
+
 **cd:**
 
 <img width="950" alt="Screenshot 2024-01-15 at 7 31 28 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/b123901b-84b7-479b-80a8-56bf76faef70">
@@ -34,7 +35,9 @@
 
 ![Screen Shot 2024-01-11 at 5 32 56 PM](https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/660d4a2b-11f4-4975-849b-39144829f75c)
 
-<h2>3.Share an example of using the command with a path to a file as an argument.</h2>
+<h2>3.Share an example of using the command with a path to a file as an argument.<h2></h2>
+
+   
 **cd:**
 
 ![Screen Shot 2024-01-11 at 5 41 08 PM](https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/180dba36-644c-4e38-9850-ff9706ee2e10)
