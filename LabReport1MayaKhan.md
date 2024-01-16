@@ -21,7 +21,7 @@ The working directory is /home and the output from this command is "lecture1  me
 The working directory is /home and the output is a loop that duplicates the user-inputed string. As shown above, "hi" is replicated. The output is an infinite loop, therefore, ctrl + C is used to break the loop. This could be considered a logical error since it is an infinite loop, however, the command cat takes standard input and transforms it into output. Therefore, the output of the cat command wihout any argument is not an error.
 
 
-## Share an example of using the command with a path to a directory as an argument.
+## 2. Share an example of using the command with a path to a directory as an argument.
 
 ### cd:
 
@@ -34,8 +34,6 @@ The working directory changes from /home to /home/lecture1 from the above comman
 
 
 ### ls:
-
-<img width= "950" alt="Screenshot 2024-01-11 at 5 31 12 PM" scr="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/4829f48e-9233-4e34-923e-34182b730b81">
 
 ![Screen Shot 2024-01-11 at 5 31 12 PM](https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/4829f48e-9233-4e34-923e-34182b730b81)
 
@@ -50,7 +48,7 @@ The working directory is /home and, using the argument of 'lecture1', the output
 The working directory is home/ and the output of the command with the argument 'lecture1' is 'cat: lecture1: Is a directory'. When the argument is a directory, the command cat will output whether or not it is a directory within the current path. This output is not an error since 'lecture1' is a directory within the current working directory. For example, if the working directory were to be home/lecture1 with the same argument 'lecture1', then the output would be 'cat: lecture1: No such file or directory' because the command cannot execute using the parent directory.
 
 
-<h2>3.Share an example of using the command with a path to a file as an argument.</h2>
+## 3.Share an example of using the command with a path to a file as an argument.
 
    
 ### cd:
