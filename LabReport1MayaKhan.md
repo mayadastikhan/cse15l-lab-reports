@@ -23,10 +23,10 @@ The working directory is /home and the output is a loop that duplicates the user
 
 <h2>2. Share an example of using the command with a path to a directory as an argument.<h2></h2>
 
-
 **cd:**
 
-<img width="950" alt="Screenshot 2024-01-15 at 7 31 28 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/b123901b-84b7-479b-80a8-56bf76faef70">
+<img width="950" alt="Screenshot 2024-01-15 at 7 31 28 PM"
+src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/b123901b-84b7-479b-80a8-56bf76faef70">
 
 
 The working directory changes from /home to /home/lecture1 from the above command. This is because the argument 'lecture1' has the command cd change the current working directory to the path of the folder 'lecture1'. This is not an error because the command correctly executes the change of directories as seen by the '[user@sahara ~/lecture1]$' outputed after the command is executed.
@@ -34,6 +34,8 @@ The working directory changes from /home to /home/lecture1 from the above comman
 
 
 **ls:**
+
+<img width= "950" alt="Screenshot 2024-01-11 at 5 31 12 PM" scr="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/4829f48e-9233-4e34-923e-34182b730b81">
 
 ![Screen Shot 2024-01-11 at 5 31 12 PM](https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/4829f48e-9233-4e34-923e-34182b730b81)
 
