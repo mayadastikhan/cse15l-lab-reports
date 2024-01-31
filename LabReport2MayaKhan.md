@@ -93,6 +93,7 @@ class ChatServer {
 <img width="830" alt="Screenshot 2024-01-30 at 7 22 28 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/035f7bdb-4853-418a-94d8-01c9cb619dc3">
 
 *  A terminal interaction where you log into your ieng6 account without being asked for a password.
+
   
 <img width="829" alt="Screenshot 2024-01-24 at 10 25 25 AM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/58cdf173-96e2-434f-b60f-47af8ca021ab">
 
