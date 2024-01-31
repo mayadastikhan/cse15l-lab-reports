@@ -83,12 +83,21 @@ class ChatServer {
 ## Part 2: 
 
 * The absolute path to the private key for your SSH key for logging into ieng6
-  
+`/Users/mayakhan/.ssh/id_rsa`
+
+<img width="830" alt="Screenshot 2024-01-30 at 7 22 28 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/5f153565-4da9-4914-b887-d5b83f1c3614">
 
 * The absolute path to the public key for your SSH key for logging into ieng6
+`/Users/mayakhan/.ssh/id_rsa.pub`
+
+<img width="830" alt="Screenshot 2024-01-30 at 7 22 28 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/035f7bdb-4853-418a-94d8-01c9cb619dc3">
 
 *  A terminal interaction where you log into your ieng6 account without being asked for a password.
-<img width="828" alt="Screenshot 2024-01-24 at 10 25 25 AM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/58cdf173-96e2-434f-b60f-47af8ca021ab">
+<img width="830" alt="Screenshot 2024-01-24 at 10 25 25 AM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/58cdf173-96e2-434f-b60f-47af8ca021ab">
 
 
- ## Part 3
+ ## Part 3:
+### What I have learned:
+ * In the past two weeks, I have learned how to log onto the remote server using `ssh` and `ieng6`. Additionally, I have learned more about URLs and their make-up such as path, query, and anchor.
+ * Using what I have learned above has allowed me to also write my own web servers such as ChatServer.
+ * I have also learned the difference between bugs and symptoms, and failure-inducing inputs.
