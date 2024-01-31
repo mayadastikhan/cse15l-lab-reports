@@ -96,8 +96,11 @@ class ChatServer {
 <img width="830" alt="Screenshot 2024-01-24 at 10 25 25 AM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/58cdf173-96e2-434f-b60f-47af8ca021ab">
 
 
+
 ## Part 3:
+
 ### What I have learned:
+
  * In the past two weeks, I have learned how to log onto the remote server using `ssh` and `ieng6`. Additionally, I have learned more about URLs and their make-up such as path, query, and anchor.
  * Using what I have learned above has allowed me to also write my own web servers such as ChatServer.
  * I have also learned the difference between bugs and symptoms, and failure-inducing inputs.
