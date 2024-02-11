@@ -85,12 +85,15 @@ class ChatServer {
 * The absolute path to the private key for your SSH key for logging into ieng6
 `/Users/mayakhan/.ssh/id_rsa`
 
-<img width="830" alt="Screenshot 2024-01-30 at 7 22 28 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/5f153565-4da9-4914-b887-d5b83f1c3614">
+<img width="829" alt="Screenshot 2024-02-09 at 2 18 31 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/92bda576-6345-41f9-9db1-4828fd276115">
+
 
 * The absolute path to the public key for your SSH key for logging into ieng6
-`/Users/mayakhan/.ssh/id_rsa.pub`
+`/home/linux/oce/66/266/m7khan/.ssh/authorized_keys`
 
-<img width="830" alt="Screenshot 2024-01-30 at 7 22 28 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/035f7bdb-4853-418a-94d8-01c9cb619dc3">
+<img width="829" alt="Screenshot 2024-02-09 at 2 15 10 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/fe233147-ffd8-4245-be21-87734f26136b">
+
+
 
 *  A terminal interaction where you log into your ieng6 account without being asked for a password.
 
