@@ -140,6 +140,8 @@ public void append(int value) {
     Hiya
     Hola
     ```
+### The grep commands researched above were obtained by https://linuxcommand.org/lc3_man_pages/grep1.html
+
   
  
     
