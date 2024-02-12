@@ -29,8 +29,9 @@
 * Symptoms of above output
     * testAppend() has the symptom `java.lang.OutOfMemoryError` at the `append(3)` at line 23 of the tester class.
     * testAppendOne(), as you can see on the left, passes the JUnit test with the indicated green check mark.
-  
-<img width="852" alt="Screenshot 2024-02-11 at 6 25 51 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/78b162d2-1a7d-4bf3-8383-50461ceaf3ee">
+
+
+<img width="882" alt="Screenshot 2024-02-11 at 6 25 51 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/90c1754e-f5bb-4e82-b429-7dce2ef5a2ba">
 
 
 * Bug in append() before
@@ -80,5 +81,65 @@ public void append(int value) {
         n.next = new Node(value, null);
     }
 ```
+
+## Part 2: Researching Commands: grep
+
+### `grep -i, --ignore-case`
+* igores case-sensitivity when matching lines and finding patterns of the instance of the string
+    * `grep i- "hello" ./commands/greetings*.txt`
+      
+      ```
+      hello people
+      Hello world
+      ```
+    *`grep -i "hello" ./commands/greetings*.txt`
+
+    ```
+    HELLO
+    HeLlO
+    hello
+    Hello
+    ```
+### `grep -m NUM, --max-count=NUM`
+* puts NUM integer of the maximum count of lines returned and grep stops outputting after NUM of matched lines have been printed
+    * `grep -m 3 "hello" ./commands/greetings*.txt`
+
+
+    ```
+    hello!
+    hello all:)
+    hello, world
+    ```
+
+
+    * `grep -im  3 "hello" ./commands/greetings*.txt`
+
+    ```
+    HELLO
+    hello!
+    Hello, world
+    ```
+    
+    
+
+### `grep -v, --invert-match`
+* returns the lines that do not contain the string in the command-line argument
+    *`grep -v "hello" ./commands/greetings*.txt`
+
+
+    ```
+    Hello
+    Hi
+    Hiya
+    Hola
+    ```
+    *`grep -iv "hello" ./commands/greetings*.txt`
+
+    ```
+    Hi
+    Hiya
+    Hola
+    ```
+  
  
     
