@@ -18,7 +18,7 @@
     * It only checks if the value of the first element, not any other node. This may allow bugs to be unchecked in the code.
     
 ```
-   @Test
+    @Test
     public void testAppendOne(){
         LinkedList list = new LinkedList();
         list.append(1);
@@ -37,22 +37,22 @@
     * There is a bug in the while loop `while(n.next != null)` that causes the loop to infinitely loop
     * Thus, the JVM is unable to continue to run the tester method due to insufficient space in the Java heap.
 ```
- public void append(int value) {
-        if(this.root == null) {
-            this.root = new Node(value, null);
-            return;
-        }
-        // If it's just one element, add if after that one
-        Node n = this.root;
-        if(n.next == null) {
-            n.next = new Node(value, null);
-            return;
-        }
-        // Otherwise, loop until the end and add at the end with a null
-        while(n.next != null) {
-            n = n.next;
-            n.next = new Node(value, null);
-        }
+    public void append(int value) {
+           if(this.root == null) {
+               this.root = new Node(value, null);
+               return;
+           }
+           // If it's just one element, add if after that one
+           Node n = this.root;
+           if(n.next == null) {
+               n.next = new Node(value, null);
+               return;
+           }
+           // Otherwise, loop until the end and add at the end with a null
+           while(n.next != null) {
+               n = n.next;
+               n.next = new Node(value, null);
+           }
 }
 ```
 
@@ -62,23 +62,23 @@
     * Since `Node n` was always set to `n.next = new Node(value, null);` in the while loop, the parameters of the while loop continuously loop as the next node is always Node n with the value of the parameter int value, not null.
     * Thus, adding `n.next = new Node(value, null);` after the while loop, loops through the nodes until the node previous of the tail node and adds the new node at the end of the list.
 ```
-public void append(int value) {
-        if(this.root == null) {
-            this.root = new Node(value, null);
-            return;
-        }
-        // If it's just one element, add if after that one
-        Node n = this.root;
-        if(n.next == null) {
-            n.next = new Node(value, null);
-            return;
-        }
-        // Otherwise, loop until the end and add at the end with a null
-        while(n.next != null) {
-            n = n.next;
-        }
-        n.next = new Node(value, null);
-}
+   public void append(int value) {
+           if(this.root == null) {
+               this.root = new Node(value, null);
+               return;
+           }
+           // If it's just one element, add if after that one
+           Node n = this.root;
+           if(n.next == null) {
+               n.next = new Node(value, null);
+               return;
+           }
+           // Otherwise, loop until the end and add at the end with a null
+           while(n.next != null) {
+               n = n.next;
+           }
+           n.next = new Node(value, null);
+   }
 ```
 
 ## Part 2: Researching Commands: grep
