@@ -95,7 +95,7 @@
       ```
   
     * The above output shows that case-sensitivity is ignored as `Differential cytotoxicity` is returned by the command with the string `differential cytotoxicity`.
-
+  
 
   `user@sahara ~/docsearch]$ grep -i "Crypt abscess" ./technical/*/*.txt`
 
