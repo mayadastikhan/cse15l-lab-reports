@@ -27,7 +27,7 @@ Keys Pressed: `cd` `<tab>` `<enter>` `sh` `<tab>` `t` `<tab>` `<enter>`
 
 <img width="745" alt="Screenshot 2024-02-27 at 5 05 58 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/6ab99ba2-8519-4a97-a3ac-6de0504355e8">
 
-<img width="676" alt="Screenshot 2024-02-27 at 5 05 22 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/d8c496fa-9cf6-473c-a504-3772ff8c0949">
+<img width="806" alt="Screenshot 2024-02-27 at 5 05 22 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/d8c496fa-9cf6-473c-a504-3772ff8c0949">
 
 
 Keys Pressed: `vim l` `<tab>` `.` `<tab>` `<enter>` `44G` `e` `x` `i` `2` `<esc>` `:x` `<enter>`
@@ -35,14 +35,14 @@ Keys Pressed: `vim l` `<tab>` `.` `<tab>` `<enter>` `44G` `e` `x` `i` `2` `<esc>
 
 ### Run the tests, demonstrating now they succeed
 
-<img width="753" alt="Screenshot 2024-02-27 at 5 06 34 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/408a1d26-d9fd-44b5-a63a-26d829135f8c">
+<img width="803" alt="Screenshot 2024-02-27 at 5 06 34 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/408a1d26-d9fd-44b5-a63a-26d829135f8c">
 
 Keys Pressed: `<up>` `<up>` `<enter>`
 * Using the bash history shortcuts, `<up>` `<up>` autofills `sh tests.sh` and `<enter>` runs the tests, which now successfully run.
 
 ### Commit and push the resulting change to your Github account
 
-<img width="777" alt="Screenshot 2024-02-27 at 5 12 19 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/a491586d-a8dd-4e4e-9c5c-0d5fe97a07b8">
+<img width="857" alt="Screenshot 2024-02-27 at 5 12 19 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/a491586d-a8dd-4e4e-9c5c-0d5fe97a07b8">
 
 Keys Pressed: `git add .` `<enter>` `git commit -m "Fixed runtime error"` `<enter>`
 * `git add .` stages the additons to the files and `git commit -m "Fixed runtime error"` commits the changes with the message in the command line argument, in this case: "Fixed runtime error", and pushes them to the main directory.
