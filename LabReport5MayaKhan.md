@@ -19,9 +19,9 @@ Here's a screenshot of the error message:
 <img width="800" alt="Screenshot 2024-03-11 at 11 18 09 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/822871b1-240d-41cd-ac37-048a388f1439">
 
 ```
-I think the bug might be related to how I'm iterating over the elements of the lists,
-but I'm not entirely sure. Any help or suggestions would be greatly appreciated.
-I have left the code below for you to checkout. Thank you!!
+I think the bug might be related to how I'm iterating over the elements of the
+lists, but I'm not entirely sure. Any help or suggestions would be greatly
+appreciated. I have left the code below for you to checkout. Thank you!!
 
 
 ```
@@ -40,10 +40,10 @@ TA
 
 Hi there,
 Thanks for reaching out! The IndexOutOfBoundsException often occurs when trying to
-access an index that is out of bounds of the list. It seems like your loop condition
-might be causing the issue. Have you carefully considered how the loop condition should
-be evaluated? It might be helpful to review the loop condition and ensure it's correctly
-handling the cases when one of the lists is exhausted.
+access an index that is out of bounds of the list. It seems like your loop
+condition might be causing the issue. Have you carefully considered how the loop
+condition should be evaluated? It might be helpful to review the loop condition and
+ensure it's correctly handling the cases when one of the lists is exhausted.
 
 Let me know if you need further assistance!
 
@@ -52,10 +52,10 @@ Let me know if you need further assistance!
 ```
 Anonymous
 
-Thanks for the suggestion! I've taken a closer look at the loop condition and printed out
-some debug information to see what's happening. I ran some extra tests on the incrementation
-of Index1 and Index2 and saw that my 1st while loop had incorrectly bounded index2 as it
-exceeded the length of list2.
+Thanks for the suggestion! I've taken a closer look at the loop condition and printed
+out some debug information to see what's happening. I ran some extra tests on the
+incrementation of Index1 and Index2 and saw that my 1st while loop had incorrectly
+bounded index2 as it exceeded the length of list2.
 
 I changed the `||` to a '&&' in the first while loop. The tests now run smoothly.
 
