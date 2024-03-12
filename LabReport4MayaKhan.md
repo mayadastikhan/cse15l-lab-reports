@@ -44,6 +44,9 @@ Keys Pressed: `<up>` `<up>` `<enter>`
 
 <img width="857" alt="Screenshot 2024-02-27 at 5 12 19 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/a491586d-a8dd-4e4e-9c5c-0d5fe97a07b8">
 
-Keys Pressed: `git add .` `<enter>` `git commit -m "Fixed runtime error"` `<enter>`
-* `git add .` stages the additons to the files and `git commit -m "Fixed runtime error"` commits the changes with the message in the command line argument, in this case: "Fixed runtime error", and pushes them to the main directory.
+<img width="857" alt="Screenshot 2024-03-12 at 1 11 29 AM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/4a94ad6a-c57d-42ed-b71b-e789b96aff4d">
 
+Keys Pressed: `git add .` `<enter>` `git commit -m "Fixed runtime error"` `<enter>` `git remote set-url origin git@github.com:mayadastikhan/lab7.git` `<enter>``git push origin main` `<enter>`
+* `git add .` stages the additons to the files and `git commit -m "Fixed runtime error"` commits the changes with the message in the command line argument, in this case: "Fixed runtime error". Then, `git remote set-url origin git@github.com:mayadastikhan/lab7.git` `<enter>` `git push origin main` `<enter>` pushes changes and commits messages to the main branch of the git repository.
+
+<img width="857" alt="Screenshot 2024-03-12 at 1 11 39 AM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/6a98450a-394d-459c-a0d6-1a633fdc5e0c">
