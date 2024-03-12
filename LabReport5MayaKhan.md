@@ -13,7 +13,21 @@ I have been having an ongoing issue in my ListExamples.java and I am not sure wh
 
 ```
 I think the bug might be related to how I'm iterating over the elements of the lists, but I'm not entirely sure. Any help or suggestions would be greatly appreciated! Below is the code.
+
 ```
 
 <img width="800" alt="Screenshot 2024-03-11 at 11 24 44 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/105fdcdd-f510-4018-b3ea-34462bc07883">
-]
+
+
+## 1 Answer
+```
+TA
+
+Hi there,
+Thanks for reaching out! The IndexOutOfBoundsException often occurs when trying to access an index that is out of bounds of the list. It seems like your loop condition might be causing the issue. Have you carefully considered how the loop condition should be evaluated?
+
+It might be helpful to review the loop condition and ensure it's correctly handling the cases when one of the lists is exhausted.
+
+Let me know if you need further assistance!
+
+```
