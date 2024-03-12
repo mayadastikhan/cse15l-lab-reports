@@ -30,7 +30,7 @@ Any help or suggestions would be greatly appreciated. I have left the code below
 
 <img width="800" alt="Screenshot 2024-03-12 at 12 12 03 AM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/36187bc5-e535-4e7c-8b23-2808ee3a3824">
 
-## 3 Answers
+## 2 Answers
 ```
 TA
 
