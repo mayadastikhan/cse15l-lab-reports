@@ -49,3 +49,25 @@ Thanks for the suggestion! I've taken a closer look at the loop condition and pr
 <img width="800" alt="Screenshot 2024-03-12 at 12 07 06 AM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/bb63d83c-d102-4e3a-b720-fcbcd37ab66d">
 
 
+## Structure of lab7 directory
+```
+lab7/
+│
+├── src/
+│   ├── ListExamples.java
+│   └── ListExamplesTests.java
+│
+├── test.sh
+│
+└── README.md
+```
+
+## Part 2 - Reflection
+
+Throughout the second half of this quarter, I have learned:
+
+* Collaborative coding, including branching to not affect main code base. Committing and pushing work alongside this as I have hearned you can locally work on code and coommit and pish changes to local Git repositiories. Pull requests, additionally, push developers local branches to the cenral repository and merge after PRs go through with proper code review, collaboration, and feedback. These all combine into the multifaceted concept of collaborative coding. Throughout this process, effective communication among team members is essential. Git provides tools for managing conflicts, reviewing changes, and tracking the history of the codebase, enabling smooth collaboration even in distributed teams. 
+
+* I have also learned a handful of useful commands used in terminal that assist in interacting with the operating system and navigating tasks more efficiently. Learning to write shell scripts allows users to automate complex workflows, saving time and effort in the long run. Also, Command-line tools often provide powerful debugging and troubleshooting capabilities. Overall, learning to work with command-line commands and arguments is an empowering skill that opens up a world of possibilities for efficiently managing and interacting with computer systems.
+
+
