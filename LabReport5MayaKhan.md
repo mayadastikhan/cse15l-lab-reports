@@ -13,7 +13,8 @@ I have been having an ongoing issue in my ListExamples.java and I am not sure wh
 <img width="800" alt="Screenshot 2024-03-11 at 11 18 09 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/822871b1-240d-41cd-ac37-048a388f1439">
 
 ```
-I think the bug might be related to how I'm iterating over the elements of the lists, but I'm not entirely sure. Any help or suggestions would be greatly appreciated. I have left the code below for you to checkout. Thank you!!
+I think the bug might be related to how I'm iterating over the elements of the lists, but I'm not entirely sure.
+Any help or suggestions would be greatly appreciated. I have left the code below for you to checkout. Thank you!!
 
 
 ```
