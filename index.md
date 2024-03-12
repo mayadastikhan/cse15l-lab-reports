@@ -7,3 +7,5 @@
 ### [Lab Report 3](LabReport3MayaKhan.md)
 
 ### [Lab Report 4](LabReport4MayaKhan.md)
+
+### [Lab Report 5](LabReport5MayaKhan.md)
