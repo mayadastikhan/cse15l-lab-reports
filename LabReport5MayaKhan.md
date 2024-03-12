@@ -7,7 +7,9 @@
 Anonymous
 
 Hello,
-I have been having an ongoing issue in my ListExamples.java and I am not sure what is wrong. I'm trying to implement a method merge in my ListExamples class which should take two sorted lists of strings and return a new list containing all the strings from both lists in sorted order. However, when I run my tests, I'm getting a failure with an IndexOutOfBoundsException. Here's a screenshot of the error message:
+I have been having an ongoing issue in my ListExamples.java and I am not sure what is wrong. I'm trying to implement a method merge in my
+ListExamples class which should take two sorted lists of strings and return a new list containing all the strings from both lists in sorted
+order. However, when I run my tests, I'm getting a failure with an IndexOutOfBoundsException. Here's a screenshot of the error message:
 
 ```
 <img width="800" alt="Screenshot 2024-03-11 at 11 18 09 PM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/822871b1-240d-41cd-ac37-048a388f1439">
@@ -32,7 +34,8 @@ Any help or suggestions would be greatly appreciated. I have left the code below
 TA
 
 Hi there,
-Thanks for reaching out! The IndexOutOfBoundsException often occurs when trying to access an index that is out of bounds of the list. It seems like your loop condition might be causing the issue. Have you carefully considered how the loop condition should be evaluated?
+Thanks for reaching out! The IndexOutOfBoundsException often occurs when trying to access an index that is out of bounds of the list. It seems
+like your loop condition might be causing the issue. Have you carefully considered how the loop condition should be evaluated?
 
 It might be helpful to review the loop condition and ensure it's correctly handling the cases when one of the lists is exhausted.
 
@@ -43,7 +46,9 @@ Let me know if you need further assistance!
 ```
 Anonymous
 
-Thanks for the suggestion! I've taken a closer look at the loop condition and printed out some debug information to see what's happening. I ran some extra tests on the incrementation of Index1 and Index2 and saw that my 1st while loop had incorrectly bounded index2 as it exceeded the length of list2. I changed the `||` to a '&&' in the first while loop. The tests now run smoothly
+Thanks for the suggestion! I've taken a closer look at the loop condition and printed out some debug information to see what's happening. I ran some
+extra tests on the incrementation of Index1 and Index2 and saw that my 1st while loop had incorrectly bounded index2 as it exceeded the length of list2.
+I changed the `||` to a '&&' in the first while loop. The tests now run smoothly.
 
 ```
 <img width="800" alt="Screenshot 2024-03-12 at 12 06 16 AM" src="https://github.com/mayadastikhan/cse15l-lab-reports/assets/151574602/14725f21-cc98-4918-9440-0f017c8ef6b9">
