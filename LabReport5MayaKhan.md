@@ -41,6 +41,8 @@ Let me know if you need further assistance!
 ```
 
 ```
+Anonymous
+
 Thanks for the suggestion! I've taken a closer look at the loop condition and printed out some debug information to see what's happening. I ran some extra tests on the incrementation of Index1 and Index2 and saw that my 1st while loop had incorrectly bounded index2 as it exceeded the length of list2. I changed the `||` to a '&&' in the first while loop. The tests now run smoothly
 
 ```
